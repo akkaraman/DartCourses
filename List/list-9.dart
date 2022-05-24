@@ -22,4 +22,4 @@ void main(List<String> args) {
   var allMarried = users.every((e) => e.isMarried);
   print(allMarried); //return false
   
-}
+} 
