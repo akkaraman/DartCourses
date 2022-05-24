@@ -11,7 +11,7 @@ void main(List<String> args) {
 
   if (vals.isNotEmpty) {
     print("Liste boş değil");
-  }
+}
 
   vals.clear();
   if (vals.isEmpty) {
