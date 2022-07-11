@@ -1,11 +1,26 @@
-void main(List<String> args) async {
-  var myfut1 = await Future.value(4);
-  print(myfut1);
-  
-  var myfut2 = await Future.value(14);
-  print(myfut2); 
+/*
+void main(List<String> args) {
+  print("İlk Satır");
+  internettenVeriCek().then((String value) {
+    print(value);
+  });
+  print("Son Satır");
+}
 
-  Future.delayed(Duration(seconds: 2), () => 12).then((value) => print(value));
-  final res = await Future.delayed(Duration(seconds: 2), () => 14);
-  print(res);
+Future<String> internettenVeriCek() async {
+  String kullaniciAdi = "Abdulkadir";
+  await Future.delayed(Duration(seconds: 3));
+  return Future.value(kullaniciAdi);
+}
+*/
+
+void main(List<String> args) async {
+  String kullanici = await internettenVeriCek();
+  print(kullanici);
+}
+
+Future<String> internettenVeriCek() async {
+  String kullaniciAdi = "Abdulkadir";
+  await Future.delayed(Duration(seconds: 3));
+  return Future.value(kullaniciAdi);
 }
