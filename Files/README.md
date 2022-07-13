@@ -1,0 +1,1 @@
+https://fluttermaster.com/how-to-read-file-using-dart/
