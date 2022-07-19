@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "DARTCOURSES",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    }
+  ],
+  "generated": "2022-07-15T13:45:01.666180Z",
+  "generator": "pub",
+  "generatorVersion": "2.17.5"
+}
